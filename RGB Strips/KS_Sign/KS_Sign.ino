@@ -54,20 +54,20 @@ void setup() {
 
 void loop() {
   // Fill along the length of the strip in various colors...
-  colorWipe(strip.Color(255,   255,   0), 2); // Red
-  colorWipe(strip.Color(  0, 255,   255), 2); // Green
-  colorWipe(strip.Color(  255,   0, 255), 2); // Blue
-  colorWipe(strip.Color(255,   255,   255), 2); // Red
+  colorWipe(strip.Color(255, 0,   255), 2);
+  colorWipe(strip.Color(255,   255,   0), 2);
+  colorWipe(strip.Color(0,   255, 255), 2);
+  colorWipe(strip.Color(255,   255,   255), 2); // White
 
   // Do a theater marquee effect in various colors...
-  theaterChase(strip.Color(127, 0, 0), 50); // White, half brightness
-  theaterChase(strip.Color(0,   127,   0), 50); // Red, half brightness
-  theaterChase(strip.Color(  0,   0, 127), 50); // Blue, half brightness
+  theaterChase(strip.Color(0, 255, 0), 50); // Red
+  theaterChase(strip.Color(255,   0,   0), 50); // Green
+  theaterChase(strip.Color(  0,   0, 255), 50); // Blue
 
-  rainbow(10);             // Flowing rainbow cycle along the whole strip
+  rainbow(2);             // Flowing rainbow cycle along the whole strip
   theaterChaseRainbow(50); // Rainbow-enhanced theaterChase variant
+  strip.clear();
 }
-
 
 // Some functions of our own for creating animated effects -----------------
 
