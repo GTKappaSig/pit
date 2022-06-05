@@ -53,3 +53,4 @@ void setup() {
 
 void loop() { }
 ```
+### [WLED Install Website](https://install.wled.me)
