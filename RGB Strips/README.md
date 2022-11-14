@@ -5,6 +5,7 @@ The pit will have "[ESP8266 NodeMCU LUA CH340 ESP-12E WiFi Internet Development 
 ### Software Setup
 1) Download the [Arduino IDE](https://www.arduino.cc/en/software)
 1) Setup ESP8266 Board on Arduino IDE with [this repo](https://github.com/esp8266/Arduino#installing-with-boards-manager)'s instructions
+1) [Compile](https://kno.wled.ge/advanced/compiling-wled/) & upload WLED with the [autosave usermod](https://github.com/Aircoookie/WLED/issues/1926) enabled
 1) Profit
 ### Getting Mac IP
 ```
